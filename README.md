@@ -10,6 +10,5 @@ Nosso projeto web desenvolvido ao longo do aprendizado da disciplina de  Web no 
 - preencher um formulario
 - escolher as cadeiras
 - visualizar confirmação.
-- 
 - simular o cadastro no nosso site.
 
