@@ -1,87 +1,87 @@
 body {
-    display: flex;             /* Habilita o Flexbox */
-    flex-direction: column;    /* Empilha os filhos (header, main, footer) verticalmente */
-    min-height: 100vh;         /* Garante que o body ocupe, no mínimo, a altura total da viewport */
-    margin: 0;                 /* Remove margens padrão do body */
+    display: flex;            
+    flex-direction: column;   
+    min-height: 100vh;         
+    margin: 0;                 
 }
 header {
    padding: 5px 20px;
-box-sizing: border-box;
-background-color: #222;
-align-items: center;
-justify-content: space-between;
-display: flex;
+   box-sizing: border-box;
+   background-color: #222;
+   align-items: center;
+   justify-content: space-between;
+   display: flex;
 }
 .logo img {
-    max-height: 80px;
-    width: auto;
+   max-height: 80px;
+   width: auto;
 }
 header nav h1 {
-font-family: Sans-serif;
-font-size: 1.5em;
-color: white;
-font-weight: bold;
-margin: 0;
+   font-family: Sans-serif;
+   font-size: 1.5em;
+   color: white;
+   font-weight: bold;
+   margin: 0;
 }
 .color-orange {
-color: #e67e22;
+   color: #e67e22;
 }
 .centralizar-texto {
-text-align: center;
+   text-align: center;
 }
 label {
-font-weight: bold;
-font-family: Sans-serif;
-text-shadow: 0.4px 0.4px 0.4px  #e67e22;
-color:#e67e22;
+   font-weight: bold;
+   font-family: Sans-serif;
+   text-shadow: 0.4px 0.4px 0.4px  #e67e22;
+   color:#e67e22;
 }
 main {
-flex-grow: 1; /* Faz com que o <main> ocupe todo o espaço vertical restante */
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
-margin: 0;
-background: radial-gradient(circle at center, #121420 0%, #0F0F10 100%);
+   flex-grow: 1; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   margin: 0;
+   background: radial-gradient(circle at center, #121420 0%, #0F0F10 100%);
 }
 .container {
-background-color: rgba(15, 15, 25, 0.95);
-border: 2px solid #e67e22;
-border-radius: 10px;
-padding: 25px 40px;
-box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
-width: 300px;
+   background-color: rgba(15, 15, 25, 0.95);
+   border: 2px solid #e67e22;
+   border-radius: 10px;
+   padding: 25px 40px;
+   box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+   width: 300px;
 }
 h2 {
-font-family: Sans-serif;
-text-shadow: 0.4px 0.4px 0.4px #e67e22;
-color: #e67e22; 
-font-weight: bold;
-text-align: center;
+   font-family: Sans-serif;
+   text-shadow: 0.4px 0.4px 0.4px #e67e22;
+   color: #e67e22; 
+   font-weight: bold;
+   text-align: center;
 }
 input[type="email"], input[type="password"] {
-    width: 90%;
-    padding: 10px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+   width: 90%;
+   padding: 10px;
+   margin: 8px 0;
+   border: 1px solid #ccc;
+   border-radius: 4px;
 }
 .button {
-display: inline-block;
-text-align: center;
-box-sizing: border-box;
-padding: 12px 20px;
-font-size: 1rem;
-background-color: #e67e22;
-color: white;
-border: none;
-cursor: pointer;
-border-radius: 8px;
-text-decoration: none;
-font-weight: bold;
-margin-top: 15px;
-font-family: Sans-serif;
-box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+   display: inline-block;
+   text-align: center;
+   box-sizing: border-box;
+   padding: 12px 20px;
+   font-size: 1rem;
+   background-color: #e67e22;
+   color: white;
+   border: none;
+   cursor: pointer;
+   border-radius: 8px;
+   text-decoration: none;
+   font-weight: bold;
+   margin-top: 15px;
+   font-family: Sans-serif;
+   box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
 }
 .button:hover {
     background-color: #cf711f;
@@ -116,20 +116,20 @@ display: flex;
     gap: 20px;
 }
 .footer-links a {
-font-family: Sans-serif;
-color: white;
-font-weight: bold;
-text-decoration: none;
-transition: color 0.2s;
+   font-family: Sans-serif;
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+   transition: color 0.2s;
 }
 .footer-links a:hover {
     color: #fff;
     text-decoration: underline;
 }
 footer p {
-font-family: Sans-serif;
-color:white;
-font-weight: bold;
-margin: 0;
+   font-family: Sans-serif;
+   color:white;
+   font-weight: bold;
+   margin: 0;
 }
 

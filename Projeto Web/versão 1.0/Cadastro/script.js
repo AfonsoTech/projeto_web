@@ -48,6 +48,6 @@ form.addEventListener('submit', function(event) {
     setTimeout(function() {
         window.location.href = 'file:///home/afonso/sandbox/Projeto%20Web/vers%C3%A3o%201.0/Confirma%C3%A7%C3%A3o/index.html';
 
-;
+
 }, 1500);
-};
+});
