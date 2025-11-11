@@ -47,6 +47,8 @@ font-weight: bold;
 display: block;
 margin-bottom: 5px;
 font-family: Sans-serif;
+text-shadow: 0.4px 0.4px 0.4px #e67e22;
+color: #e67e22; 
 }
 select {
 width: 100%;

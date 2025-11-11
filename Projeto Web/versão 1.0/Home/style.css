@@ -16,6 +16,8 @@ display: flex;
 .logo img {
 max-height: 80px;
 width: auto;
+border: none;
+box-shadow: none;
 }
 header nav h1 {
 font-family: Sans-serif;
@@ -31,26 +33,30 @@ h1, h2 {
     text-align: center;
     font-family: Sans-serif;
     color: white;
-    text-shadow: 0.5px 0.5px 0.5px white;
+    text-shadow: 0.7px 0.7px 0.7px white;
     text-decoration: none;
 }
 p {
     font-family: Sans-serif;
     color: white;
     font-weight: bold;
-    text-shadow: 0.5px 0.5px 0.5px white;
-    text-decoration: none;
+    text-shadow: 0.4px 0.4px 0.4px white;
+    
 }
 img {
     display: block; /* 1. Transforma a imagem em um elemento de bloco */
     margin: 0 auto;  /* 2. Centraliza o bloco na horizontal */
     max-width: 100%; /* Boa prática para responsividade */
     height: auto;
+    border: 2px solid #e67e22;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+    text-align: center;
 }
 a {
     font-family: Sans-serif;
     font-weight: bold;
-    text-shadow: 0.5px 0.5px 0.5px white;
+    text-shadow: 0.4px 0.4px 0.4px white;
     text-decoration: none;
 }
 .centralizar-links {
@@ -74,12 +80,14 @@ a {
 }
 .cor-paragrafos {
     color: #e67e22;
+    font-weight: bold;
+    text-shadow: 0.4px 0.4px 0.4px #e67e22;
 }
 footer {
 padding: 35px 50px;
 box-sizing: border-box;
 background-color: #222;
-align-itens: center;
+align-items: center;
 justify-content: space-between;
 display: flex;
 }
