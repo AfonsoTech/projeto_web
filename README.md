@@ -9,7 +9,7 @@ Simular a compra de ingresso(s) de filmes em cartaz nos cinemas.
 ---
 
 ## 🤝 Stakeholders
-Estudantes e Professor
+Estudantes e Professor 
 
 ---
 
