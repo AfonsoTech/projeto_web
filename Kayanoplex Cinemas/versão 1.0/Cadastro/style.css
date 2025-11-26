@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-background: radial-gradient(circle at top, #0d1b2a 0%, #000814 100%);
+    background: radial-gradient(circle at top, #0d1b2a 0%, #000814 100%);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -80,15 +80,26 @@ input[type="email"], input[type="password"] {
    color: white;
    border: none;
    cursor: pointer;
-   border-radius: 8px;
+   border-radius: 10px;
    text-decoration: none;
    font-weight: bold;
    margin-top: 15px;
    font-family: Sans-serif;
    box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+
 }
-.button:hover {
-    background-color: #cf711f;
+button form {
+    /*laranja fundo  */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover form {
+    box-shadow: 0 0 25px rgba(0, 200, 255, 0.9);
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #00ccff, #0077ff);
+
 }
 #mensagem {
     margin-top: 20px;
